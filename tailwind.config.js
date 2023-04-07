@@ -3,6 +3,7 @@ const tailpress = require("@jeffreyvr/tailwindcss-tailpress");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+    darkMode: ['class'],
     content: [
         './*.php',
         './**/*.php',
